@@ -1,6 +1,3 @@
-// features/typography/index.js
-// Contains extractTypography and getUniqueFonts utilities
-
 /**
  * @module features/typography
  * Utilities for extracting and grouping typography details from Figma nodes.
@@ -10,7 +7,7 @@
  *   - getUniqueFonts: Groups unique font families and styles, assigns order labels.
  */
 
-const getOrderLabel = require('../../utils');
+const getOrderLabel = require('../../utils/getOrderLabel');
 
 /**
  * Recursively extracts typography details from the document node.
