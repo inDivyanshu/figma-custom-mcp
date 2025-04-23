@@ -1,0 +1,20 @@
+{
+  "name": "figma-mcp-api",
+  "version": "1.0.0",
+  "description": "This is a project that will help to extrapolate figma data to be used with MCP",
+  "main": "server.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "Figma",
+    "MCP"
+  ],
+  "author": "Divyanshu Agarwal",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.8.4",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0"
+  }
+}
